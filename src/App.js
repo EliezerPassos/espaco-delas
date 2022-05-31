@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <header>
+    <header className='container--home'>
       <h1>Espaco Delas</h1>
       <ul>
         <li>About</li>
