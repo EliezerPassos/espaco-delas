@@ -1,12 +1,13 @@
 import React from "react";
 import Header from './Header.css'
-import { VscMenu } from 'react-icons/vsc';
+import { CgMenuRound } from 'react-icons/cg';
 
 export default ()=>{
 return(
 <header>
-    <h1 className="header--logo">ESPAÇO DELAS</h1>  
-    <VscMenu className="header--menu" style={{width:30}}/>
+    <h1 className="header--logo">DELAS</h1>  
+    <CgMenuRound className="header--menu" style={{width:50}}/>
+   
 </header>
 );
 

@@ -3,27 +3,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Oswald:wght@500;600&display=swap');
 
 header{
-    background-image: url('../../public/pexels-01.jpg');
-    background-size: contain;
+    position: fixed;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    background-color: antiquewhite;
-
+    flex-direction: row;
+    color: aliceblue;
 }
 
 .header--logo{
-    font-size: 5vw;
+    margin-top: 2vw;
+    margin-left: 7vw ;
+    font-size: 12vw;
     font-family: 'Oswald', sans-serif;
-    font-weight: 900;
-    font-size: medium;
-    color: goldenrod;
-    position: relative;
-    right: 10vw;
 }
 
 .header--menu{
-    color: goldenrod;
+    margin-bottom: 6vw;
     height: 50px;
+    margin-left: 160px;
 }
