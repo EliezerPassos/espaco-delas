@@ -8,7 +8,6 @@ function App() {
     <div>
     <Header/>
     <Home/>
-    <h1>O lugar perfeito para seu cabelo</h1>
     </div>
   );
 }
