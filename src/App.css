@@ -1,4 +1,8 @@
-.container--home{
-    background-image: url('../public/pexels-01.jpg');
-    width: 400px;
+.banner--home{
+ background-image: url('../public/pexels-01.jpg');
+ background-repeat:no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+    width: 100vw;
+   height: 600px;
 }

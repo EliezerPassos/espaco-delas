@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+Header h1{
+    color: aliceblue;
+    font-family: 'Oleo Script', cursive;
+}
+.header--menu{
+    display: flex;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    color:  #fff;
+    font-size: 15px;
+}
+.header--menu li{
+    margin-left: 4px;
+}

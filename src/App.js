@@ -1,16 +1,12 @@
 import React from  'react';
+import Header from './components/Header';
 import './App.css';
 
 function App() {
   return (
-    <header className='container--home'>
-      <h1>Espaco Delas</h1>
-      <ul>
-        <li>About</li>
-        <li>Galeria</li>
-        <li>Contatc</li>
-      </ul>
-    </header>
+    <section className='banner--home'>
+    <Header/>
+    </section>
   );
 }
 
